@@ -1,0 +1,316 @@
+/* author:Umesh Mathulkar  */
+
+
+
+body{font-family: 'Poppins', sans-serif!important; }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.navbar .logo {
+    text-align: center;
+    
+}
+.logo img{
+    height: 17px;
+}
+
+.navbar .touch {
+    float: right;
+}
+
+.topImage {
+    background: linear-gradient(180deg, #05283E -23.09%, rgba(9, 67, 103, 0) 107.85%), url(./images/topImage.png) no-repeat;
+    height: 660px;
+    background-position: top center;
+    background-size: cover;
+    mix-blend-mode: normal;
+
+}
+.topImage h1{
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 500;
+    top: 15%;
+    left: 10%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+
+.info {
+    background: url(./images/Maskgroup.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.info h6{
+    color: #EC2232;  
+    position: relative; 
+}
+.info h1
+
+.team h6{
+ color: #EC2232;
+}
+.team >p{
+    float: right;
+}
+.team{
+    padding: 20%;
+}
+.team table{
+    width: 100%;
+    text-align: center;
+}
+.team table h1{
+    font-size: 4vw;
+}
+.team table p{
+    font-size: 1.4vw;
+}
+.first{
+    padding-top: 1%;
+    padding-left: 14%;
+}
+.card{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    box-shadow: 0 15px 15px 2px lightgrey;
+    
+}
+.card img{
+    height: 300px;
+}
+.cardAd{
+    position: relative;
+    top: 15%;
+}
+
+.bound{
+    height: 700px;
+}
+.upper{
+    table-layout: fixed;
+    width: 100%;
+}
+.industre img{
+    float: right;
+}
+.subIndustre div{
+    display: inline-block ;
+}
+.subIndustre p{
+    font-size: 1vw;
+}
+.subIndustre table{
+    table-layout: fixed;
+    width: 100%;
+    position: relative;
+    top:10%;
+    left: 10%;
+    border-left: solid 2px #EC2232;
+    padding: 0 0 0 3%;
+}
+
+.machine{
+    background: url(./images/machine.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+.subMachine{
+    padding: 8% 0 0 8%;
+}
+.machine table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 10%;
+}
+.companie{
+    display: flex;
+    justify-content: center;
+}
+.companie img{
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.contact>table{
+    table-layout: fixed;
+    width: 100%;
+}
+.form{
+    background-color: #0E3466;
+    height: 400px;
+    padding: 10% 0 0 10%;
+}
+.form h1{
+    color: white;
+}
+.form input{
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    border: none;
+}
+.formcenter{
+    
+    background-color: #0E3466;
+}
+textarea{
+    height: 50px;
+    width: 250px;
+}
+.formspace{
+    margin: 20px 0 0 0;
+}
+button{
+    background-color: #EC2232;
+    height: 30px;
+    border-radius: 20px;
+    border:none;
+    color: white;
+    width: 100px;
+}
+.map table{
+    table-layout: fixed;
+    width: 100%;
+    height: 40vw;
+}
+iframe{
+    height: 40vw;
+}
+
+.map{
+    background-color: #F8F8F8;
+    height: 470px;
+}
+.map table{
+    position: relative;
+    left: -20%;
+    top: 3%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+    text-align: center;   
+}
+.map h3{
+    font-size: 14px;
+}
+.map p{
+    font-size: 10px;
+    color: #828282
+}
+
+
+footer{
+    background-color: #181818;
+}
+.footer a{color: white;}
+.footer table{
+    table-layout: fixed;
+    width: 100%;
+}
+.footer h4{
+    color: white;
+}
+.footer li{
+    font-size: 12px;
+    color: white;
+}
+.footer img{
+height: 15px;
+}
+.footer p{
+font-size: 12px;
+color: white;
+}
+
+@media screen and (max-width:550px) {
+    .card img{
+        height: 100px;
+    }
+    .card p{
+        font-size: 2vw;
+    }
+    .map{
+        display: none;
+    }
+    .contact>table{
+        table-layout: inherit;
+    }
+    .indie{
+        display: none;
+    }
+
+}
+@media screen and (max-width:640px) {
+    .card img{
+        height: 160px;
+    }
+    .card p{
+        font-size: 2vw;
+    }
+    .map{
+        display: none;
+    }
+    .contact>table{
+        table-layout: inherit;
+    }
+    .indie{
+        display: none;
+    }
+
+}
+@media screen and (max-width:765px) {
+    .topImage {
+        height: 300px;
+    }
+    .info{
+        height: 400px;
+        background-size: contain;
+    }
+    .team table p{
+        font-size: 2vw;
+    }
+    .card img{
+        height: 200px;
+    }
+    .card p{
+        font-size: 2vw;
+    }
+    .map{
+        display: none;
+    }
+    .contact>table{
+        table-layout: inherit;
+    }
+    .indie{
+        display: none;
+    }
+}
+@media screen and (max-width:930px) {
+    .card img{
+        height: 190px;
+    }
+    .card p{
+        font-size: 2vw;
+    }
+    
+}
+
+
+
+
+
+
